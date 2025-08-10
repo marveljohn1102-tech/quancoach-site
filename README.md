@@ -37,7 +37,63 @@ footer{margin-top:40px;padding:20px 0;background:#fff;border-top:1px solid #e5e7
   <div class="container nav">
     <a class="brand" href="/">泉教練</a>
     <nav>
-      <a href="/courses/index.html">課程一覽</a>
+      <a href="<!doctype html><html lang="zh-Hant"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>課程一覽｜泉教練</title>
+<meta name="description" content="私人課程、線上課程、多人課程；快速比較並前往詳細介紹與表單。">
+<style>
+:root{--brand:#8E9AF3;--cta:#4056F4;--text:#1b1b1b;--muted:#64748b;--paper:#fff}
+*{box-sizing:border-box} body{margin:0;font-family:-apple-system,"Noto Sans TC","PingFang TC",Segoe UI,Roboto,Arial,sans-serif;background:#f6f8fa;color:var(--text)}
+.container{max-width:980px;margin:0 auto;padding:16px}
+h1{margin:6px 0 16px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(3,1fr)}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;justify-content:space-between}
+.badge{display:inline-block;background:#eef2ff;color:#4056F4;padding:4px 10px;border-radius:999px;font-size:12px}
+a.btn{display:inline-block;background:#4056F4;color:#fff;text-decoration:none;border-radius:10px;padding:10px 14px;margin-top:10px}
+.note{color:#64748b}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+</style>
+</head><body>
+<div class="container">
+  <h1>我適合哪一種課？</h1>
+  <p class="note">快速比較三種課程，點進去可看詳細流程圖與填表預約。</p>
+
+  <div class="grid">
+    <div class="card">
+      <div>
+        <span class="badge">需要現場</span>
+        <h2 style="margin:8px 0 6px">私人課程</h2>
+        <p class="note">手把手動作調整、術後銜接、快速建立動作控制。</p>
+      </div>
+      <div>
+        <a class="btn" href="/courses/private.html">瞭解更多 →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div>
+        <span class="badge">在家上課</span>
+        <h2 style="margin:8px 0 6px">線上課程</h2>
+        <p class="note">每週視訊＋影片回饋，彈性時段、在家也能有效率。</p>
+      </div>
+      <div>
+        <a class="btn" href="/courses/online.html">瞭解更多 →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div>
+        <span class="badge">互動划算</span>
+        <h2 style="margin:8px 0 6px">多人課程</h2>
+        <p class="note">小班控人數、同儕支持，在安全框架內提升體能與品質。</p>
+      </div>
+      <div>
+        <a class="btn" href="/courses/group.html">瞭解更多 →</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>">課程一覽</a>
       <a href="#value">課程價值</a>
       <a href="#cases">案例分享</a>
       <a href="#creds">資歷</a>
@@ -130,7 +186,7 @@ footer{margin-top:40px;padding:20px 0;background:#fff;border-top:1px solid #e5e7
     <ul id="creds-wrap" class="clean">
       <li>NASM‑CES 矯正運動專家</li>
       <li>ACE‑CPT 私人教練</li>
-      <li>8 年教學經驗，300+ 案例</li>
+      <li> 6年教學經驗，300+ 案例</li>
     </ul>
   </section>
 
