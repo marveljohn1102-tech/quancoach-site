@@ -28,6 +28,8 @@ header{
   align-items:center;
   justify-content:space-between;
   padding:0.5rem 1rem;
+  position:sticky;
+  top:0;
 }
 header nav a{
   color:white;
@@ -39,6 +41,36 @@ header nav a{
 }
 header nav a svg{
   margin-right:0.3rem;
+}
+.hero{
+  position:relative;
+  height:70vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  background:url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  top:0;left:0;width:100%;height:100%;
+  background:linear-gradient(to bottom right, rgba(142,154,243,0.8), rgba(64,86,244,0.8));
+}
+.hero-content{
+  position:relative;
+  z-index:1;
+  max-width:700px;
+  padding:1rem;
+}
+.hero h1{
+  font-size:2.5rem;
+  margin-bottom:1rem;
+}
+.hero p{
+  font-size:1.2rem;
+  line-height:1.6;
 }
 main{
   padding:2rem;
@@ -92,9 +124,16 @@ footer{
   </nav>
 </header>
 
+<section class="hero">
+  <div class="hero-content">
+    <h1>恢復動作・重拾自信</h1>
+    <p>術後復健、關節優化、動作控制 —— 為你的每一步重建力量與穩定。</p>
+  </div>
+</section>
+
 <main>
   <section id="about">
-    <h1>關節優化・術後復健・動作控制</h1>
+    <h2>關於我</h2>
     <p>我專注於幫助術後、關節不適者恢復動作能力，結合科學化訓練與個人化調整，讓你的每一次訓練都是進步與恢復。</p>
   </section>
 
